@@ -13,7 +13,7 @@ This project has a basic OTP system with three main parts:
 - Check remaining OTP expiry time
 
 Redis is used because OTPs are temporary and should automatically expire after some time.
-
+    
 ## Tech Used
 
 - Node.js
