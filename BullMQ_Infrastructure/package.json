@@ -1,0 +1,15 @@
+{
+  "name": "user-profile-in-redis-json-vs-hash",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node src/index.js"
+  },
+
+  "dependencies": {
+    "bullmq": "5.4.2",
+    "express": "^5.2.1",
+    "ioredis": "^5.10.1"
+  }
+}
