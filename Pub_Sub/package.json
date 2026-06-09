@@ -1,0 +1,15 @@
+{
+  "name": "user-profile-in-redis-json-vs-hash",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "api": "node src/api.js",
+    "dev": "node src/subscriber.js"
+  },
+
+  "dependencies": {
+    "express": "^5.2.1",
+    "ioredis": "^5.10.1"
+  }
+}
