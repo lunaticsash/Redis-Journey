@@ -4,7 +4,7 @@ import Redis from "ioredis";
 const app = express();
 app.use(express.json()); //middleware to parse JSON bodies
 
-const redis = new Redis(process.env.Redis_URL || "redis://localhost:6379");
+const redis = new Redis(process.env.REDIS_URL || "redis://localhost:6379");
 
 const BANNER_KEY = "app:banner"; // Key to store the banner message in Redis
 
